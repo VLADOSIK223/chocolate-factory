@@ -1,20 +1,16 @@
 <?php
-namespace ChocolateLib;
 
-class ChocolateBar extends Snack {
-    public function cut(): void {
-        echo "Snack {$this->name} нужно резать плитками.\n";
-    }
-}
+declare(strict_types=1);
 
-class Candy extends Snack {
-    public function cut(): void {
-        echo "Snack {$this->name} нужно резать кубиками.\n";
-    }
-}
+namespace App;
 
-class Truffle extends Snack {
-    public function cut(): void {
-        echo "Snack {$this->name} нужно резать по вертикали.\n";
+class ChocolateBar extends Snack
+{
+    /**
+     * Специфический метод нарезки для батончика.
+     */
+    public function cut(): void
+    {
+        echo "snack нужно резать по вертикали(кусочками, кубиками, плитками и т.д.)" . PHP_EOL;
     }
 }
