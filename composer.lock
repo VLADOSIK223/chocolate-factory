@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d1b1b46b36a538a2f85feb3485a8f040",
+    "packages": [
+        {
+            "name": "vladosik233/chocolate-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VLADOSIK223/chocolate-core.git",
+                "reference": "fe8dbfb4c50eaf220ada3be1819be20d71d6c6b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VLADOSIK223/chocolate-core/zipball/fe8dbfb4c50eaf220ada3be1819be20d71d6c6b3",
+                "reference": "fe8dbfb4c50eaf220ada3be1819be20d71d6c6b3",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\Core\\": "src/"
+                }
+            },
+            "description": "Core library for chocolate factory",
+            "support": {
+                "source": "https://github.com/VLADOSIK223/chocolate-core/tree/main",
+                "issues": "https://github.com/VLADOSIK223/chocolate-core/issues"
+            },
+            "time": "2026-05-26T14:41:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "vladosik233/chocolate-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

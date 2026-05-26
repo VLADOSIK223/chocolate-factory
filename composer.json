@@ -1,10 +1,19 @@
 {
-    "name": "vlad/chocolate-factory",
-    "description": "Chocolate Factory Variant 2",
+    "name": "vladosik233/chocolate-factory",
+    "description": "Main factory application",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/VLADOSIK223/chocolate-core.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vladosik233/chocolate-core": "dev-main"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
-    },
-    "require": {}
+    }
 }
